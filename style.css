@@ -443,7 +443,128 @@ a {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px){
+    .projects-project-container .project-button img {
+        width: 50px;
+    }
+    .projects-project-container p {
+        font-size: 12px;
+        max-width: 37vw;
+    }
+    .projects-project-container .project-button {
+        width: 35vw;
+        height: 50vh;
+    }
+    .projects-project-container .project-button-a {
+        padding: 2px 4px;
+        width: 100vw;
+        position: relative;
+        top:5px;
+        font-size: 12px;
+    }
+
+    .projects-intro-text h1{
+        font-size:10vw;
+        text-align: center;
+    }
+
+    .projects-intro-text p{
+        max-width:100vw;
+        position: relative;
+        top:1.5vh;
+        font-size:14px;
+        text-align:center;
+    }
+
+    .projects-intro-text a{
+        font-size: 15px;
+        position: relative;
+        top:8vh;
+        left:38vw;
+    }
+
+    .projects-intro-text {
+        position: relative;
+        bottom:75px;
+    }
+
+    .top .text h1{
+        font-size:10vw;
+    }
+
+    .top img{
+        width:50vw;
+        position: relative;
+        top:20vw;
+    }
+    .top .text p{
+        min-width: 50vw;
+    }
+
+    .top .text a{
+        font-size: 15px;
+        top:18vh;
+    }
+
+    .about-intro-text h1{
+        font-size: 10vw;
+    }
+
+    .about-intro-text p{
+        font-size: 15px;
+        position: relative;
+        bottom: 15px;
+        
+    }
+    .about p{
+        max-width:100%;
+    }
+
+    .about-provide-text h1{
+        font-size: 10vw;
+        width:100vw;
+    }
+
+    .about-provide-text p{
+        font-size: 15px;
+        position:relative;
+        bottom: 15px;
+        max-width:100%;
+    }
+
+    .about-intro-text a{
+        font-size: 15px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-intro-text{
+        position:relative;
+        top:30vh;
+    }
+
+    .about-intro-text a{
+        position: relative;
+        top:55vh;
+    }
+
+    .about-provide-text{
+        position: relative;
+        max-width:100vw;
+    }
+
+    .contact-intro{
+        max-width:100vw;
+    }
+
+    .contact-intro h1{
+        font-size: 10vw; 
+    }
+}
+
+@media screen and (max-width: 430px){
     .projects-project-container .project-button img {
         width: 50px;
     }
