@@ -114,6 +114,7 @@ body {
 .top .text a:hover {
     background-color: rgb(36, 101, 131);
     color: rgb(44, 156, 208);
+    box-shadow: 0px 5px 5px rgb(32, 85, 110);
 }
 
 .about {
@@ -134,7 +135,7 @@ body {
 }
 
 .about-intro-text p {
-    font-size: 1.5vh;
+    font-size: 2vh;
     max-width: 25vw;
     letter-spacing: 1px;
     font-weight: 300;
@@ -152,7 +153,7 @@ body {
 }
 
 .about-provide-text p {
-    font-size: 1.5vh;
+    font-size: 2vh;
     letter-spacing: 1px;
     font-weight: 300;
     margin-top: 6vh;
@@ -173,6 +174,7 @@ body {
 .about-intro-text a:hover {
     background-color: rgb(36, 101, 131);
     color: rgb(44, 156, 208);
+    box-shadow: 0px 5px 5px rgb(32, 85, 110);
 }
 
 .projects {
@@ -183,10 +185,6 @@ body {
     justify-content: space-evenly;
     flex-direction: column;
 }
-/* 
-.projects-intro-text {
-    margin-bottom: 45vh;
-} */
 
 .projects-intro-text h1 {
     font-size: 5.5vh;
@@ -216,6 +214,7 @@ body {
 .projects-intro-text a:hover {
     background-color: rgb(36, 101, 131);
     color: rgb(44, 156, 208);
+    box-shadow: 0px 5px 5px rgb(32, 85, 110);
 }
 
 .projects-project-container {
@@ -239,12 +238,11 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: rgb(15,15,15);
+    background-color: rgb(15, 15, 15);
     border-radius: 20px;
     padding: 25px;
     justify-content: space-evenly;
-    height: 50vh;
-    max-height: 60vh;
+    height: 60vh;
 }
 
 .project-button a {
@@ -252,11 +250,14 @@ a {
     padding: 7px 9px;
     border-radius: 20px;
     transition: all 350ms ease-in-out;
+    position: relative;
+    top: 10px;
 }
 
 .project-button a:hover {
     background-color: rgb(36, 101, 131);
     color: rgb(44, 156, 208);
+    box-shadow: 0px 5px 5px rgb(32, 85, 110);
 }
 
 .contact {
@@ -290,8 +291,23 @@ a {
 }
 
 .contact-links a:hover {
-    background-color: rgb(5, 5, 5);
-    color: rgb(25, 25, 25);
+    background-color: rgb(10, 10, 10);
+    box-shadow: 0px 5px 5px rgb(5, 5, 5);
+}
+
+.back-to-top a {
+    background-color: rgb(44, 156, 208);
+    padding: 15px 20px;
+    border-radius: 20px;
+    transition: all 350ms ease-in-out;
+    position: relative;
+    top: 10px;
+}
+
+.back-to-top a:hover {
+    background-color: rgb(36, 101, 131);
+    color: rgb(44, 156, 208);
+    box-shadow: 0px 5px 5px rgb(32, 85, 110);
 }
 
 @media screen and (max-width: 1440px) {
@@ -306,18 +322,22 @@ a {
         bottom: 8vh;
     }
 
-    .projects-intro-text p{
-        max-width:400px;
+    .projects-intro-text p {
+        max-width: 400px;
         text-align: center;
     }
 
-    .project-button-a{
+    .project-button-a {
         position: relative;
-        top:8px;
+        top: 8px;
     }
 
-    .project-button img{
-        width:150px;
+    .project-button img {
+        width: 150px;
+    }
+
+    .project-button {
+        height: 65vh;
     }
 }
 
