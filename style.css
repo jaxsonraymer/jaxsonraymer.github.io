@@ -243,6 +243,7 @@ a {
     border-radius: 20px;
     padding: 25px;
     justify-content: space-evenly;
+    height: 50vh;
 }
 
 .project-button a {
@@ -255,9 +256,6 @@ a {
 .project-button a:hover {
     background-color: rgb(36, 101, 131);
     color: rgb(44, 156, 208);
-}
-.project-1 {
-    height: 55vh;
 }
 
 .contact {
@@ -338,80 +336,79 @@ a {
         padding: 2px 4px;
         width: 100vw;
         position: relative;
-        top:5px;
+        top: 5px;
         font-size: 12px;
     }
 
-    .projects-intro-text h1{
-        font-size:10vw;
+    .projects-intro-text h1 {
+        font-size: 10vw;
         text-align: center;
     }
 
-    .projects-intro-text p{
-        max-width:100vw;
+    .projects-intro-text p {
+        max-width: 100vw;
         position: relative;
-        top:1.5vh;
-        font-size:14px;
-        text-align:center;
+        top: 1.5vh;
+        font-size: 14px;
+        text-align: center;
     }
 
-    .projects-intro-text a{
+    .projects-intro-text a {
         font-size: 15px;
         position: relative;
-        top:8vh;
-        left:38vw;
+        top: 8vh;
+        left: 38vw;
     }
 
     .projects-intro-text {
         position: relative;
-        bottom:75px;
+        bottom: 75px;
     }
 
-    .top .text h1{
-        font-size:10vw;
+    .top .text h1 {
+        font-size: 10vw;
     }
 
-    .top img{
-        width:50vw;
+    .top img {
+        width: 50vw;
         position: relative;
-        top:20vw;
+        top: 20vw;
     }
-    .top .text p{
+    .top .text p {
         min-width: 50vw;
     }
 
-    .top .text a{
+    .top .text a {
         font-size: 15px;
-        top:18vh;
+        top: 18vh;
     }
 
-    .about-intro-text h1{
+    .about-intro-text h1 {
         font-size: 10vw;
     }
 
-    .about-intro-text p{
+    .about-intro-text p {
         font-size: 15px;
         position: relative;
         bottom: 15px;
-        
     }
-    .about p{
-        max-width:100%;
+    .about p {
+        max-width: 100%;
     }
 
-    .about-provide-text h1{
+    .about-provide-text h1 {
         font-size: 10vw;
-        width:100vw;
+        width: 100vw;
     }
 
-    .about-provide-text p{
+    .about-provide-text p {
         font-size: 15px;
-        position:relative;
+        position: relative;
         bottom: 15px;
-        max-width:100%;
+        max-width: 100%;
     }
 
-    .about-intro-text a{
+    .about-intro-text a {
         font-size: 15px;
     }
 
@@ -419,31 +416,31 @@ a {
         flex-direction: column;
     }
 
-    .about-intro-text{
-        position:relative;
-        top:30vh;
-    }
-
-    .about-intro-text a{
+    .about-intro-text {
         position: relative;
-        top:55vh;
+        top: 30vh;
     }
 
-    .about-provide-text{
+    .about-intro-text a {
         position: relative;
-        max-width:100vw;
+        top: 55vh;
     }
 
-    .contact-intro{
-        max-width:100vw;
+    .about-provide-text {
+        position: relative;
+        max-width: 100vw;
     }
 
-    .contact-intro h1{
-        font-size: 10vw;    
+    .contact-intro {
+        max-width: 100vw;
+    }
+
+    .contact-intro h1 {
+        font-size: 10vw;
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
     .projects-project-container .project-button img {
         width: 50px;
     }
@@ -459,80 +456,79 @@ a {
         padding: 2px 4px;
         width: 100vw;
         position: relative;
-        top:5px;
+        top: 5px;
         font-size: 12px;
     }
 
-    .projects-intro-text h1{
-        font-size:10vw;
+    .projects-intro-text h1 {
+        font-size: 10vw;
         text-align: center;
     }
 
-    .projects-intro-text p{
-        max-width:100vw;
+    .projects-intro-text p {
+        max-width: 100vw;
         position: relative;
-        top:1.5vh;
-        font-size:14px;
-        text-align:center;
+        top: 1.5vh;
+        font-size: 14px;
+        text-align: center;
     }
 
-    .projects-intro-text a{
+    .projects-intro-text a {
         font-size: 15px;
         position: relative;
-        top:8vh;
-        left:38vw;
+        top: 8vh;
+        left: 38vw;
     }
 
     .projects-intro-text {
         position: relative;
-        bottom:75px;
+        bottom: 75px;
     }
 
-    .top .text h1{
-        font-size:10vw;
+    .top .text h1 {
+        font-size: 10vw;
     }
 
-    .top img{
-        width:50vw;
+    .top img {
+        width: 50vw;
         position: relative;
-        top:20vw;
+        top: 20vw;
     }
-    .top .text p{
+    .top .text p {
         min-width: 50vw;
     }
 
-    .top .text a{
+    .top .text a {
         font-size: 15px;
-        top:18vh;
+        top: 18vh;
     }
 
-    .about-intro-text h1{
+    .about-intro-text h1 {
         font-size: 10vw;
     }
 
-    .about-intro-text p{
+    .about-intro-text p {
         font-size: 15px;
         position: relative;
         bottom: 15px;
-        
     }
-    .about p{
-        max-width:100%;
+    .about p {
+        max-width: 100%;
     }
 
-    .about-provide-text h1{
+    .about-provide-text h1 {
         font-size: 10vw;
-        width:100vw;
+        width: 100vw;
     }
 
-    .about-provide-text p{
+    .about-provide-text p {
         font-size: 15px;
-        position:relative;
+        position: relative;
         bottom: 15px;
-        max-width:100%;
+        max-width: 100%;
     }
 
-    .about-intro-text a{
+    .about-intro-text a {
         font-size: 15px;
     }
 
@@ -540,31 +536,31 @@ a {
         flex-direction: column;
     }
 
-    .about-intro-text{
-        position:relative;
-        top:30vh;
-    }
-
-    .about-intro-text a{
+    .about-intro-text {
         position: relative;
-        top:55vh;
+        top: 30vh;
     }
 
-    .about-provide-text{
+    .about-intro-text a {
         position: relative;
-        max-width:100vw;
+        top: 55vh;
     }
 
-    .contact-intro{
-        max-width:100vw;
+    .about-provide-text {
+        position: relative;
+        max-width: 100vw;
     }
 
-    .contact-intro h1{
-        font-size: 10vw; 
+    .contact-intro {
+        max-width: 100vw;
+    }
+
+    .contact-intro h1 {
+        font-size: 10vw;
     }
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 430px) {
     .projects-project-container .project-button img {
         width: 50px;
     }
@@ -580,80 +576,79 @@ a {
         padding: 2px 4px;
         width: 100vw;
         position: relative;
-        top:5px;
+        top: 5px;
         font-size: 12px;
     }
 
-    .projects-intro-text h1{
-        font-size:10vw;
+    .projects-intro-text h1 {
+        font-size: 10vw;
         text-align: center;
     }
 
-    .projects-intro-text p{
-        max-width:100vw;
+    .projects-intro-text p {
+        max-width: 100vw;
         position: relative;
-        top:1.5vh;
-        font-size:14px;
-        text-align:center;
+        top: 1.5vh;
+        font-size: 14px;
+        text-align: center;
     }
 
-    .projects-intro-text a{
+    .projects-intro-text a {
         font-size: 15px;
         position: relative;
-        top:8vh;
-        left:38vw;
+        top: 8vh;
+        left: 38vw;
     }
 
     .projects-intro-text {
         position: relative;
-        bottom:75px;
+        bottom: 75px;
     }
 
-    .top .text h1{
-        font-size:10vw;
+    .top .text h1 {
+        font-size: 10vw;
     }
 
-    .top img{
-        width:50vw;
+    .top img {
+        width: 50vw;
         position: relative;
-        top:20vw;
+        top: 20vw;
     }
-    .top .text p{
+    .top .text p {
         min-width: 50vw;
     }
 
-    .top .text a{
+    .top .text a {
         font-size: 15px;
-        top:18vh;
+        top: 18vh;
     }
 
-    .about-intro-text h1{
+    .about-intro-text h1 {
         font-size: 10vw;
     }
 
-    .about-intro-text p{
+    .about-intro-text p {
         font-size: 15px;
         position: relative;
         bottom: 15px;
-        
     }
-    .about p{
-        max-width:100%;
+    .about p {
+        max-width: 100%;
     }
 
-    .about-provide-text h1{
+    .about-provide-text h1 {
         font-size: 10vw;
-        width:100vw;
+        width: 100vw;
     }
 
-    .about-provide-text p{
+    .about-provide-text p {
         font-size: 15px;
-        position:relative;
+        position: relative;
         bottom: 15px;
-        max-width:100%;
+        max-width: 100%;
     }
 
-    .about-intro-text a{
+    .about-intro-text a {
         font-size: 15px;
     }
 
@@ -661,35 +656,35 @@ a {
         flex-direction: column;
     }
 
-    .about-intro-text{
-        position:relative;
-        top:30vh;
-    }
-
-    .about-intro-text a{
+    .about-intro-text {
         position: relative;
-        top:55vh;
+        top: 30vh;
     }
 
-    .about-provide-text{
+    .about-intro-text a {
         position: relative;
-        max-width:100vw;
+        top: 55vh;
     }
 
-    .contact-intro{
-        max-width:100vw;
+    .about-provide-text {
+        position: relative;
+        max-width: 100vw;
     }
 
-    .contact-intro h1{
-        font-size: 10vw; 
+    .contact-intro {
+        max-width: 100vw;
+    }
+
+    .contact-intro h1 {
+        font-size: 10vw;
     }
 }
 
-footer{
-    width:100vw;
+footer {
+    width: 100vw;
     text-align: center;
 }
 
-footer p{
-    max-width:100vw;
+footer p {
+    max-width: 100vw;
 }
