@@ -22,8 +22,8 @@ body {
     height: 100vh;
     background-image: linear-gradient(
         to bottom right,
-        rgb(30, 30, 30),
-        rgb(15, 15, 15)
+        rgb(40, 40, 40),
+        rgb(25, 25, 25)
     );
     overflow-x: hidden;
 }
@@ -239,11 +239,12 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(15,15,15);
     border-radius: 20px;
     padding: 25px;
     justify-content: space-evenly;
     height: 50vh;
+    max-height: 60vh;
 }
 
 .project-button a {
@@ -301,8 +302,22 @@ a {
 
 @media screen and (max-width: 1024px) {
     .projects-intro-text a {
-        left: 60vw;
-        bottom: 13.5vh;
+        left: 50vw;
+        bottom: 8vh;
+    }
+
+    .projects-intro-text p{
+        max-width:400px;
+        text-align: center;
+    }
+
+    .project-button-a{
+        position: relative;
+        top:8px;
+    }
+
+    .project-button img{
+        width:150px;
     }
 }
 
@@ -331,6 +346,7 @@ a {
     .projects-project-container .project-button {
         width: 35vw;
         height: 50vh;
+        max-height: 60vh;
     }
     .projects-project-container .project-button-a {
         padding: 2px 4px;
@@ -451,6 +467,7 @@ a {
     .projects-project-container .project-button {
         width: 35vw;
         height: 50vh;
+        max-height: 60vh;
     }
     .projects-project-container .project-button-a {
         padding: 2px 4px;
@@ -579,6 +596,7 @@ a {
     .projects-project-container .project-button {
         width: 35vw;
         height: 50vh;
+        max-height: 60vh;
     }
     .projects-project-container .project-button-a {
         padding: 2px 4px;
