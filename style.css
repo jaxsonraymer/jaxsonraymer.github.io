@@ -260,6 +260,10 @@ a {
     box-shadow: 0px 5px 5px rgb(32, 85, 110);
 }
 
+.project-2 img{
+    border-radius: 25px;
+}
+
 .contact {
     width: 100vw;
     height: 100vh;
