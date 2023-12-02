@@ -486,7 +486,7 @@ a {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .projects-project-container .project-button img {
         width: 50px;
     }
@@ -581,6 +581,7 @@ a {
 
     .about {
         flex-direction: column;
+        
     }
 
     .about-intro-text {
@@ -758,3 +759,4 @@ section{
     height:100vw;
     height:100vh;
 }
+
