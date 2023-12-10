@@ -3,8 +3,8 @@
         .projects-container {
             .card {
                 img {
-                    width: 5vw; /*!important*/
-                    height: auto;
+                    width: 5vw !important; /*!important*/
+                    height: auto !important;
                 }
             }
         }
@@ -17,7 +17,7 @@
             .card {
                 width: 16vw;
                 p {
-                    font-size: 1.25vw;
+                    font-size: 1.25vw !important;
                 }
             }
         }
@@ -63,33 +63,32 @@
     #top {
         .vertical-text p {
             font-size: 3vw !important;
-            left: 3vw !important;
         }
     }
     #about {
         .me-img {
             position: relative !important;
-            bottom: 5vh !important;
-            left: 2.5% !important;
+            // bottom: 5svh !important;
+            // left: 2.5% !important;
         }
         .intro-text {
             h1 {
-                font-size: 12vw !important;
-                height: 17vh !important;
+                font-size: 10vw !important;
+                // height: 17vh !important;
             }
             p {
                 position: relative !important;
-                left: 20vw !important;
+                // left: 20vw !important;
             }
         }
         .provide-text {
             h1 {
-                font-size: 12vw !important;
-                height: 17vh !important;
+                font-size: 10vw !important;
+                // height: 17vh !important;
             }
             p {
                 position: relative !important;
-                left: 20vw !important;
+                // left: 20vw !important;
             }
         }
     }
@@ -136,42 +135,38 @@
                 font-size: 3vw !important;
             }
         }
-
-        
     }
 
     #about {
         .intro-text {
             p {
-                position: relative !important;
                 font-size: 2vw !important;
-                min-width: 80vw !important;
-                left: 0 !important;
+                max-width: 80vw !important;
             }
         }
 
         .provide-text {
             p {
-                position: relative !important;
                 font-size: 2vw !important;
-                min-width: 80vw !important;
-                left: 0 !important;
+                max-width: 80vw !important;
             }
         }
 
         .me-img {
-            left: -3% !important;
+            left: -1.2% !important;
+            top: -2svh;
         }
     }
 
     #projects {
         .projects-container {
             .card {
+                width:23vw;
                 img {
-                    width: 9vw !important;
+                    width: 15vw !important;
                 }
                 p {
-                    font-size: 1.75vw !important;
+                    font-size: 1.9vw !important;
                 }
             }
         }
@@ -201,13 +196,13 @@
             .card {
                 width: 25vw !important;
                 img {
-                    width: 10vw !important;
+                    width: 16vw !important;
                 }
                 p {
-                    font-size: 1.75vw !important;
+                    font-size: 2vw !important;
                 }
                 a {
-                    font-size: 12px !important;
+                    font-size: 15px !important;
                 }
             }
         }
@@ -220,7 +215,7 @@
                 }
                 p {
                     font-size: 3vw !important;
-                    bottom: 5vh !important;
+                    // bottom: 5vh !important;
                 }
             }
 
@@ -230,7 +225,7 @@
                 }
                 p {
                     font-size: 3vw !important;
-                    bottom: 5vh !important;
+                    // bottom: 5vh !important;
                 }
             }
         }
@@ -257,7 +252,6 @@
         .vertical-text {
             p {
                 font-size: 5vw !important;
-                left: 5vw !important;
             }
         }
     }
@@ -269,10 +263,10 @@
                     width: 20vw !important;
                 }
                 p {
-                    font-size: 2vw !important;
+                    font-size: 2.5vw !important;
                 }
                 a {
-                    font-size: 12px !important;
+                    font-size: 18px !important;
                 }
             }
         }
@@ -314,6 +308,7 @@
 
 @media screen and (width <= 428px) {
     #top {
+        height:100svh;
         .inner-container {
             .intro-text {
                 h1 {
@@ -343,7 +338,6 @@
                 }
                 p {
                     font-size: 3.2vw !important;
-                    left: 6vw !important;
                 }
             }
 
@@ -353,7 +347,6 @@
                 }
                 p {
                     font-size: 3.2vw !important;
-                    left: 6vw !important;
                 }
             }
         }

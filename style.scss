@@ -43,28 +43,27 @@ body {
 
 #top {
     color: $color-orange;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100svh;
     .vertical-text p {
         writing-mode: vertical-lr;
         text-orientation: sideways-right;
         transform: rotate(180deg) skew(360deg);
         text-transform: uppercase;
         position: absolute;
-        left: 1vw;
-        height: 100vh;
-        max-width: 1vw;
-        bottom: 5vh;
+        left: 0vw;
+        height: 100svh;
+        max-width: max-content;
+        bottom: 0;
         font-size: 1.5vw;
         letter-spacing: 4px;
         color: $color-orange;
         font-weight: 700;
     }
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    // position: relative;
     .outer-container {
         width: 100vw;
         position: absolute;
@@ -131,7 +130,7 @@ body {
         width: 100vw;
         position: absolute;
         background-color: $color-orange;
-        height: 10vh;
+        height: 10svh;
         bottom: 0;
         left: 0;
         right: 0;
@@ -168,17 +167,29 @@ body {
 
 #about {
     width: 100vw;
-    height: 100vh;
+    height: 100svh;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    place-items:center;
     justify-content: space-evenly;
+
+    .provide-text, .intro-text{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        place-items:center;
+        text-align:center;
+        width:100vw;
+        height:max-content;
+    }
     h1 {
         color: $color-orange;
         font-family: "Italianno";
         font-size: 6vw;
+        width:max-content;
         letter-spacing: 5px;
     }
 
@@ -205,7 +216,7 @@ body {
 }
 
 #projects {
-    height: 75vh;
+    height: 75svh;
     width: 100vw;
     background-color: $color-orange;
     position: relative;
@@ -229,7 +240,7 @@ body {
         display: flex;
         flex-direction: row;
         width: 100vw;
-        height: 80vh;
+        height: 80svh;
         justify-content: center;
         align-items: center;
         gap: 3vw;
@@ -237,7 +248,7 @@ body {
             border-radius: 20px;
             background-color: $color-dark;
             width: 12.5%;
-            height: 60vh;
+            height: 60svh;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -257,7 +268,7 @@ body {
                 display: block;
                 border-radius: 25px;
                 background-color: $color-orange;
-                padding: 2vh 0.7vw;
+                padding: 2svh 0.7vw;
                 transition: all 250ms ease-in-out;
             }
             a:hover {
@@ -281,7 +292,7 @@ body {
 
 #contact {
     position: relative;
-    height: 100vh;
+    height: 100svh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -329,12 +340,17 @@ footer {
     position: relative;
     background-color: $color-orange;
     width: 100vw;
-    height: 3vh;
+    height: 3svh;
+    text-align: center;
+    place-content: center;
+    display: flex;
     p {
         color: $color-dark;
         display: flex;
         align-items: center;
         text-align: center;
         justify-content: center;
+        height:100%;
+        width:max-content;
     }
 }
