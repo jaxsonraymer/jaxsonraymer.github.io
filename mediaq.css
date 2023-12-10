@@ -4,6 +4,17 @@
     height: auto !important;
   }
 }
+@media screen and (width <= 1586px) and (height <= 864px) {
+  #projects .projects-container .card img {
+    width: 4.5vw !important;
+  }
+  #projects .projects-container .card p {
+    font-size: 0.9vw;
+  }
+  #projects .projects-container .card a {
+    font-size: 12px;
+  }
+}
 @media screen and (width <= 1500px) {
   #projects .projects-container .card {
     width: 16vw;

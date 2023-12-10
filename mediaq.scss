@@ -11,6 +11,25 @@
     }
 }
 
+@media screen and (width <= 1586px) and (height <= 864px){
+    #projects{
+        .projects-container{
+            .card{
+                img{
+                    width:4.5vw !important;
+                }
+                p{
+                    font-size: 0.9vw;
+                }
+
+                a{
+                    font-size:12px;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (width <= 1500px) {
     #projects {
         .projects-container {
